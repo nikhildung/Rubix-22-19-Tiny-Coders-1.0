@@ -22,6 +22,7 @@ def Doctor_Pre(request):
 def Doctor_Appointment(request):
     return render(request, 'Patient/Html/Appointment.html')
 
+
 @csrf_exempt
 def signup(request):
     ctx = {}
@@ -65,3 +66,9 @@ def LOGIN(request):
 def LOGOUT(request):
     logout(request)
     return redirect('Home')
+
+def Emergency(request):
+    return render(request, 'Patient/Html/Emergency.html')
+
+def Patient_Appointmentm(request):
+    return render(request , "Patient/Html/Patient_Appointment.html")

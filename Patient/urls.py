@@ -8,7 +8,9 @@ urlpatterns =[
     path('Doctor_Profile', views.Doctor_Profile, name="Doc_Pro"),
     path('Doctor_App', views.Doctor_Appointment, name="Doc_App"),
     path('Signup', views.signup,name="Sign_up"),
-    path('Login',views.LOGIN,name="Login")
+    path('Login',views.LOGIN,name="Login"),
+    path('Emergency',views.Emergency,name="Emergency"),
+    path('Patient_Appointment',views.Patient_Appointmentm, name="App")
 
 
 ]
