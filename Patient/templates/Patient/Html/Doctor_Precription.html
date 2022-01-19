@@ -1,0 +1,34 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>prescribtion</title>
+    <link rel="stylesheet" href="{% static 'Patient/CSS/Doctor_Precription.css' %}">
+
+</head>
+
+<body>
+    <form method = "post" action = "">
+        <div class="container">
+
+
+                <h1 style="text-align: center;">add patient's prescribtion</h1>
+            <hr>
+
+            <label> <b>P_ID</b> : </label><br>
+            <input type="text"  name="User_ID" id ="User_ID" placeholder="patient id" size="15" required /> <br>
+
+            <label> <b>Name</b> : </label><br>
+            <textarea type="text" name="detail" placeholder=""  id="Name" required > </textarea>
+
+
+            <hr>
+            <button type="submit" name = "submit" class="registerbtn"><b>Book</b></button>
+
+    </form>
+</body>
+
+</html>
