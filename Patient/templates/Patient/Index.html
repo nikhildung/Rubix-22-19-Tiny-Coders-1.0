@@ -1,0 +1,189 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Health Assistance</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{% static 'Patient/Index.css' %}">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"></a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="Book Appointment">Book Appointment</a>
+        <a href="Medical Store">Medical Store</a>
+        <a href="Emergency Chat">Emergency Chat</a>
+        <a href="Sign Up / Log In">Sign Up / Log In</a>
+        <a href="#Admin">Admin</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h1>Prevention from Corona Virus</h1>
+        <h3>stay home, stay safe</h3>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- onlineapp section starts  -->
+
+<section class="Onlineapp" id="Onlineapp">
+
+    <h1 class="heading"> BOOK APPOINTMENT </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="{% static 'Patient/Images/onlineapp.png' %}" alt="">
+            <h3>Online Doctor's Appoitnment</h3>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'Patient/Images/phyapp.jfif' %}" alt="">
+            <h3>Physical Doctor's Appoitnment</h3>
+        </div>
+
+        <div class="box">
+            <img src="{% static 'Patient/Images/labapp.jfif' %}" alt="">
+            <h3>Lab Test Booking</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- onlineapp section ends -->
+
+<!-- MedicalStore section starts  -->
+
+<section class="MedicalStore" id="MedicalStore">
+
+    <h1 class="heading">Medical Store</h1>
+
+
+
+</section>
+
+<!-- MedicalStore section ends -->
+
+<!-- Emergency Chat section starts  -->
+
+<section class="EmergencyChat" id="EmergencyChat">
+
+    <h1 class="heading">Emergency Chat</h1>
+
+
+
+</section>
+
+<!-- Emergency Chat section ends -->
+
+<!-- Sign Up / Log In section start  -->
+
+<section class="Sign" id="Sign">
+
+    <h1 class="heading">Sign Up / Log In</h1>
+
+
+
+</section>
+
+<!-- Sign Up / Log In section ends -->
+
+<!-- Admin section starts  -->
+
+<section class="admin" id="admin">
+
+    <h1 class="heading">Admin</h1>
+
+
+
+</section>
+
+<!-- Admin section ends -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p></p>
+        </div>
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">france</a>
+            <a href="#">russia</a>
+            <a href="#">japan</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">Online Appointment</a>
+            <a href="#">Medical Store</a>
+            <a href="#">Emergency Chat</a>
+            <a href="#">Sign Up / Log In</a>
+            <a href="#">Admin</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+            <a href="#">youtube</a>
+        </div>
+
+    </div>
+
+
+</div>
+
+<!-- footer section ends -->
+
+<!-- scroll top  -->
+
+<a href="#home" class="scroll-top">
+    <img src="{% static 'Patient/Images/scroll-img.png' %}" alt="">
+</a>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
