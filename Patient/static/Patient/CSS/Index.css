@@ -88,18 +88,14 @@ header.sticky{
     display: none;
 }
 
-.home{
-    background:url(home-bg.jpg) no-repeat;
+.bg{
+
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.bg-img{
-    /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-}
+
 
 .home .content{
     text-align: center;

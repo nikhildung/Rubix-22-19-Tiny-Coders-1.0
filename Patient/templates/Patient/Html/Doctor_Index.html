@@ -1,19 +1,21 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HOME</title>
 <link rel="stylesheet" href="{% static 'Patient/CSS/Doctor_Index.css' %}">
+
 </head>
-<body>
+<body style="background: url('{% static 'Patient/Images/Doctoe_Image.jpg' %}');background-size: cover;background-position: center;background-attachment: fixed;">
 
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
   <a href="{% url 'Doc_Pro' %}">my profile</a>
-  <a href="{% url 'Doc_App' %}">Next</a>
+  <a href= "{% url 'Doc_App' %}">Next</a>
   <a href="{% url 'Doc_Pre' %}">prescribe</a>
+  <button><a href="https://calendly.com/app/scheduled_events/user/me">Appointment</a> </button>
+
 
 </div>
 
@@ -36,6 +38,6 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 </script>
-<button><a href="https://calendly.com/app/scheduled_events/user/me">Appointment</a> </button>
+
 </body>
 </html>

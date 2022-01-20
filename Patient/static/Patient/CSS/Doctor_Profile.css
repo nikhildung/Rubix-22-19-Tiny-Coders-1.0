@@ -1,6 +1,4 @@
-
-
- body{
+body{
     margin-top:20px;
     color: #1a202c;
     text-align: left;
@@ -53,47 +51,7 @@
 .shadow-none {
     box-shadow: none!important;
 }
-
-
-.piechart {
-    margin: 100px 450px;
-    display: block;
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background-image: conic-gradient(
-        red 130deg,
-        blue 0 260deg,
-        yellow 0);
-}
-
-
-.piechart {
-    display: flex;
-    justify-content: right;
-
-}
-
-pre{
-    font-size: 20px;
-}
-
-
-a{
-    font-size: 20px;
-    cursor: pointer;
+.btn a{
     text-decoration: none;
-    color: white;
 }
 
-/* hovering fir the link */
-a:hover{
-    color: blue;
-}
-
-/* Jabhi Tum link pai click kar ho ghe */
-a:active{
-    color: greenyellow;
-
-}
